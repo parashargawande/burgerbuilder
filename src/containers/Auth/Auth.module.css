@@ -1,0 +1,37 @@
+.Auth{
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: 20px auto;
+    border: 1px solid black;
+    box-shadow: 1px 2px 3px gray;
+    box-sizing: border-box;
+}
+.Form{
+    padding: 30px 30px;
+}
+.ToggleBar{
+    display: flex;
+}
+
+.Toggle{
+    width: 50%;
+    border: 1px solid black;
+    box-shadow: 1px 2px 3px black;
+    color: white;
+    background-color: rgb(75, 26, 26);
+    cursor: pointer;
+}
+
+.Toggle.active,
+.Toggle:hover
+{
+    background-color: rgb(109, 63, 63);
+    border-bottom: 4px solid white;
+}
+
+@media (min-width:500px){
+    .Auth{
+        width: 500px;
+    }
+}

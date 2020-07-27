@@ -1,0 +1,36 @@
+.SidePannel{
+    height: 100%;
+    width: 30%;
+    top: 56px;
+    z-index: 400;
+    background: rgb(46, 44, 44);
+    position: fixed;
+    text-align: center;
+    display: none;
+    transition: transform 0.3s ease-out;
+}
+.Logo{
+    height: 85px;
+    width: 85px;
+    padding: 10px;
+    display: inline-block;
+}
+.Open{
+    transform: translateX(100%);
+}
+.Close{
+    transform: translateX(-100%);
+}
+
+@media (max-width:500px){
+    .SidePannel{
+        display: block;
+    }
+    .Logo{
+        height: 50px;
+        width: 50px;
+    }
+    .SidePannel{
+        width: 80%;
+    }
+}
