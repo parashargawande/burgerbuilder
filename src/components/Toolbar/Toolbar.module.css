@@ -1,0 +1,27 @@
+.Toolbar{
+    height: 56px;
+    width: 100%;
+    background-color: rgb(75, 26, 26);
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    padding: 0px 5px;
+    z-index: 100;
+}
+.HideNavItems{
+    display: flex;
+}
+.MenuButton{
+    pointer-events: none;
+}
+@media (max-width:500px){
+    .HideNavItems{
+        display: none;
+    }
+    .MenuButton{
+        pointer-events: all;
+    }
+}

@@ -1,0 +1,10 @@
+.OrderConfirm{
+    display: block;
+    text-align: center;
+}
+.ButtonContainer{
+    border: 1px solid black;
+    box-shadow: 1px 2px 3px gray;
+    display: inline-block;
+    padding: 0px 5px;
+}
